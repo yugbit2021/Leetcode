@@ -1,4 +1,4 @@
 # Leetcode
-| # | title |
+| # | title | solution | Difficulty|
 | -----| -------|
-| 1 | the |
+| 1 | Roman to integer | Easy|

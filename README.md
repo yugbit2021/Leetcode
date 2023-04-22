@@ -1,6 +1,6 @@
 # Leetcode
 |#|Title|Difficulty|link|
-| :--- | :---: | :---: | ---: |
+|---| ----- | -------- | ---------- |
 |1|[Roman to Integer](https://github.com/yugbit2021/Leetcode/blob/master/Roman_to_integer.cpp)| Easy |https://leetcode.com/problems/roman-to-integer/|
 |2|[Subsets](https://github.com/yugbit2021/Leetcode/blob/master/Subsets.cpp)|Medium|https://leetcode.com/problems/subsets/|
 |3|[Longest Common prefix](https://github.com/yugbit2021/Leetcode/blob/master/Longest_Common_prefix.cpp)|Easy|https://leetcode.com/problems/longest-common-prefix/submissions/937687641/|

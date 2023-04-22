@@ -1,10 +1,8 @@
 // https://leetcode.com/problems/roman-to-integer/
 
-#include<iostream>
-#include<string>
-#include<cstring>
-using namespace std;
-int romanToInt(string s) {
+class Solution {
+public:
+    int romanToInt(string s) {
         const int length = s.length();
  
     // declaring character array (+1 for null terminator)
@@ -22,11 +20,11 @@ switch (arr[i])
 case 'I':
          if((arr[i+1]!='I') && arr[i+1]!='\0'){
          count=count-1;
-       }
-         else{
+}
+  else{
        count=count+1;
-        }
-        break;
+}
+    break;
 case 'V':
     if((arr[i+1]=='L'|| arr[i+1]=='C'||arr[i+1]=='D'||arr[i+1]=='M'||arr[i+1]=='X') && arr[i+1]!='\0'){
     count=count-5;
@@ -79,15 +77,4 @@ break;
     delete[] arr;
     return count;
     }
-int main(){
-    string s = "DCXXI";
- 
-    int ans= romanToInt(s);
-    cout<<ans;
- 
-    
-   
-    //delete[] char_array;
-    
-    return 0;
-}
+};

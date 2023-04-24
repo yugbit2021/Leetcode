@@ -7,5 +7,7 @@
 |4|[Two Sum II](https://github.com/yugbit2021/Leetcode/blob/master/Two_sum.cpp)|Medium|https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ |
 |5|[Search in sorted rotated array](https://github.com/yugbit2021/Leetcode/blob/master/search_in_sorted_array.cpp)|Medium|https://leetcode.com/problems/search-in-rotated-sorted-array/|
 |6|[Search in sorted rotated array II](https://github.com/yugbit2021/Leetcode/blob/master/search_In_rotedted_array.cpp)|Medium|https://leetcode.com/problems/search-in-rotated-sorted-array-ii/|
+|7|[Binary Tree Traversal](https://github.com/yugbit2021/Leetcode/blob/master/test20.cpp)|Easy|https://leetcode.com/problems/binary-tree-inorder-traversal/solutions/|
+|8|[Merge two sorted array](https://github.com/yugbit2021/Leetcode/blob/master/test19.cpp)|Easy|https://leetcode.com/problems/merge-two-sorted-lists/|
 
 

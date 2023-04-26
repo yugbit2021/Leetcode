@@ -10,5 +10,6 @@
 |7|[Binary Tree Traversal](https://github.com/yugbit2021/Leetcode/blob/master/test20.cpp)|Easy|https://leetcode.com/problems/binary-tree-inorder-traversal/solutions/|
 |8|[Merge two sorted array](https://github.com/yugbit2021/Leetcode/blob/master/test19.cpp)|Easy|https://leetcode.com/problems/merge-two-sorted-lists/|
 |9|[3 sum](https://github.com/yugbit2021/Leetcode/blob/master/Three_sum.cpp)|Medium|https://leetcode.com/problems/3sum/submissions/939461727/|
+|10|[Remove elment](https://github.com/yugbit2021/Leetcode/blob/master/27.cpp)|Easy|https://leetcode.com/problems/remove-element/|
 
 

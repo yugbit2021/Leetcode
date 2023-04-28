@@ -1,15 +1,16 @@
 class Solution {
 public:
-    int removeElement(vector<int>& nums, int val) {
-     int count = 0;
-        // Loop through all the elements of the array
-        for (int i = 0; i < nums.size(); i++) {
-            // If the element is not val
-            if (nums[i] != val) {
-                 nums[count++] = nums[i];
-                
-            }
-        }
-        return count;
+    int removeDuplicates(vector<int>& nums) {
+      //remove duplicates we use set
+      set<int> nums1;
+      for(int i=0;i<nums.size();i++){
+        nums1.insert(nums[i]);
+      }
+      int sizeofnums1=nums1.size();
+      nums.clear();
+      for(auto i:nums1){
+        nums.push_back(i);
+      }
+      return sizeofnums1;
     }
 };

@@ -13,6 +13,7 @@
 |10|[Remove elment](https://github.com/yugbit2021/Leetcode/blob/master/27.cpp)|Easy|https://leetcode.com/problems/remove-element/|
 |11|[Remove duplicate from sorted array](https://github.com/yugbit2021/Leetcode/blob/master/26.cpp)|easy|https://leetcode.com/problems/remove-duplicates-from-sorted-array|
 |12|[sqrt(x)](https://github.com/yugbit2021/Leetcode/blob/master/69.cpp)|Easy|https://leetcode.com/problems/sqrtx/|
-|13|[Implementation stack using queue](https://github.com/yugbit2021/Leetcode/blob/master/225.cpp)|esay|https://leetcode.com/problems/implement-stack-using-queues/|
+|13|[Implementation stack using queue](https://github.com/yugbit2021/Leetcode/blob/master/225.cpp)|Esay|https://leetcode.com/problems/implement-stack-using-queues/|
+|14|[Third maximum number](https://github.com/yugbit2021/Leetcode/blob/master/414.cpp)|Easy|https://leetcode.com/problems/third-maximum-number/|
 
 

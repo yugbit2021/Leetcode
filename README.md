@@ -11,5 +11,8 @@
 |8|[Merge two sorted array](https://github.com/yugbit2021/Leetcode/blob/master/test19.cpp)|Easy|https://leetcode.com/problems/merge-two-sorted-lists/|
 |9|[3 sum](https://github.com/yugbit2021/Leetcode/blob/master/Three_sum.cpp)|Medium|https://leetcode.com/problems/3sum/submissions/939461727/|
 |10|[Remove elment](https://github.com/yugbit2021/Leetcode/blob/master/27.cpp)|Easy|https://leetcode.com/problems/remove-element/|
+|11|[Remove duplicate from sorted array](https://github.com/yugbit2021/Leetcode/blob/master/26.cpp)|easy|https://leetcode.com/problems/remove-duplicates-from-sorted-array|
+|12|[sqrt(x)](https://github.com/yugbit2021/Leetcode/blob/master/69.cpp)|Easy|https://leetcode.com/problems/sqrtx/|
+|13|[Implementation stack using queue](https://github.com/yugbit2021/Leetcode/blob/master/225.cpp)|esay|https://leetcode.com/problems/implement-stack-using-queues/|
 
 

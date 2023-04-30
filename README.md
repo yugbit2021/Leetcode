@@ -16,6 +16,6 @@
 |13|[Implementation stack using queue](https://github.com/yugbit2021/Leetcode/blob/master/225.cpp)|Esay|https://leetcode.com/problems/implement-stack-using-queues/|
 |14|[Third maximum number](https://github.com/yugbit2021/Leetcode/blob/master/414.cpp)|Easy|https://leetcode.com/problems/third-maximum-number/|
 |15|[pow(x,n)](https://github.com/yugbit2021/Leetcode/blob/master/50.cpp)|Medium|https://leetcode.com/problems/powx-n/|
-|16|[Plus one](https://leetcode.com/problems/plus-one/)Easy|https://leetcode.com/problems/plus-one/|
+|16|[Plus one](https://leetcode.com/problems/plus-one/)|Easy|https://leetcode.com/problems/plus-one/|
 
 

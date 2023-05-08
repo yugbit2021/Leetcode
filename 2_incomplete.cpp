@@ -1,63 +1,87 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
-class Solution {
-public:
-    int reverse(int d){
-    int rev=0;
-    int rem;
-    while (d!=0)
-    {
-        rem=d%10;
-        rev=rev*10+rem;
-        d/=10;
-    }
-    return rev;
-    
- }
+#include<iostream>
+using namespace std;
 
-    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode*newhead=NULL;
-        ListNode*newtail=newhead;
-
-        while(l1!=NULL || l2!=NULL){
-            int sum=0;
-        int temp;
-        while(l1!=NULL){
-            temp=l1->val;
-            sum=sum*10+temp;
-            l1=l1->next;
-        }
-        int sum2=0;
-        int temp2;
-        while(l2!=NULL){
-           temp2=l2->val;
-           sum2=sum2*10+temp2;
-           l2=l2->next;
-        }
-         int ans=sum+sum2;
-        while(ans!=0){
-            int rem=ans%10;
-            if(newhead==NULL){
-                ListNode*p=new ListNode(rem);
-                newhead=p;
-                newtail=p;
-            }else{
-                ListNode*p=new ListNode(rem);
-                newtail->next=p;
-                newtail=p;
-            }
-            ans/=10;
-        }
-       
-        }
-        return newhead;
+class node{
+    public:
+    int data;
+    node*next;
+    node(int d){
+        data=d;
+        next=NULL;
     }
 };
+void insertattail(node*&head,node*&tail,int data){
+    if(head==NULL){
+        node*p=new node(data);
+        head=p;
+        tail=p;
+    }
+    else{
+        node*p=new node(data);
+        tail->next=p;
+        tail=p;
+    }
+   
+}
+void printll(node*head){
+    node*temp=head;
+    while(temp!=NULL){
+        cout<<temp->data<<" ";
+        temp=temp->next;
+    }
+}
+int sumofll(node*head){
+    if(head==NULL){
+        return 0;
+    }
+    node*temp=head;
+    int i=1;
+    int sum=0;
+    while(temp!=NULL){
+        if(sum==0){
+            sum=temp->data;
+            temp=temp->next;
+        }
+        sum=((10*i)*temp->data)+sum;
+        i=i*10;
+        temp=temp->next;
+    }
+    return sum;
+}
+node* addTwoNumbers(node* l1, node* l2) {
+        int sum1=sumofll(l1);
+        int sum2=sumofll(l2);
+        int tsum=sum1+sum2;
+
+        node*nhead=NULL;
+        node*ntail=NULL;
+        while(tsum!=0){
+            int rem=tsum%10;
+            insertattail(nhead,ntail,rem);
+            tsum=tsum/10;
+        }
+        return nhead;
+    }
+int main(){
+    node*head1=NULL;
+    node*tail1=NULL;
+    node*head2=NULL;
+    node*tail2=NULL;
+    int n;
+    cin>>n;
+
+    for(int i=0;i<n;i++){
+        int d;
+        cin>>d;
+        insertattail(head1,tail1,d);
+    }
+    int m;
+    cin>>m;
+    for(int i=0;i<m;i++){
+        int d;
+        cin>>d;
+        insertattail(head2,tail2,d);
+    }
+    node*nhead=addTwoNumbers(head1,head2);
+    printll(nhead);
+}

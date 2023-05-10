@@ -30,7 +30,8 @@ using namespace std;
             s.push_back(matrix[l][sc]);
         }
         sc++;
- }}
+ }
+ }
  return s;
     }
 

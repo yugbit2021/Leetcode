@@ -1,9 +1,10 @@
 # Leetcode
 |#|Title|Difficulty|link|
 |---| ----- | -------- | ---------- |
+|1|[Two Sum](https://github.com/yugbit2021/Leetcode/blob/master/1.cpp)|Easy|https://leetcode.com/problems/two-sum/|
 |2|[Add two number](https://github.com/yugbit2021/Leetcode/blob/master/4.cpp)|Medium|https://leetcode.com/problems/add-two-numbers/|
-|3|[Longest Common prefix](https://github.com/yugbit2021/Leetcode/blob/master/Longest_Common_prefix.cpp)|Easy|https://leetcode.com/problems/longest-common-prefix/submissions/937687641/|
 |13|[Roman to Integer](https://github.com/yugbit2021/Leetcode/blob/master/Roman_to_integer.cpp)| Easy |https://leetcode.com/problems/roman-to-integer/|
+|14|[Longest Common prefix](https://github.com/yugbit2021/Leetcode/blob/master/Longest_Common_prefix.cpp)|Easy|https://leetcode.com/problems/longest-common-prefix/submissions/937687641/|
 |15|[3 sum](https://github.com/yugbit2021/Leetcode/blob/master/Three_sum.cpp)|Medium|https://leetcode.com/problems/3sum/submissions/939461727/|
 |21|[Merge two sorted array](https://github.com/yugbit2021/Leetcode/blob/master/test19.cpp)|Easy|https://leetcode.com/problems/merge-two-sorted-lists/|
 |26|[Remove duplicate from sorted array](https://github.com/yugbit2021/Leetcode/blob/master/26.cpp)|easy|https://leetcode.com/problems/remove-duplicates-from-sorted-array|

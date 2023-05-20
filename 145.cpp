@@ -11,16 +11,24 @@
  */
 class Solution {
 public:
- vector<int> v;
-    vector<int> postorderTraversal(TreeNode* root) {
-       
-        if(root!=NULL){
-            postorderTraversal(root->left);
-         postorderTraversal(root->right);
-         v.push_back(root->val);
-        }
-       
+vector<int> v;
 
+void traversepost(TreeNode* root){
+    if(root==NULL){
+        return ;
+    }
+    
+        traversepost(root->left);
+    
+    
+        traversepost(root->right);
+    
+    v.push_back(root->val);
+}
+
+    vector<int> postorderTraversal(TreeNode* root) {
+        
+        traversepost(root);
          return v;
 
     }
